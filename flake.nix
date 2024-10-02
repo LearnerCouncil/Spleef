@@ -31,7 +31,7 @@
         spleef = pkgs.callPackage
           ({ lib, maven, jdk17_headless }: maven.buildMavenPackage rec {
             pname = "Spleef";
-            version = "1.5.2";
+            version = "2.2.25";
 
             src = ./.;
 
