@@ -92,6 +92,12 @@
       <scope>provided</scope>
       <version>2.3.3</version>
     </dependency>
+    <dependency>
+      <groupId>me.clip</groupId>
+      <artifactId>placeholderapi</artifactId>
+      <version>2.11.6</version>
+      <scope>provided</scope>
+    </dependency>
     <!-- Local deps -->
     <dependency>
       <groupId>fr.naruse.api</groupId>
@@ -106,13 +112,6 @@
       <version>1.2.6</version>
       <scope>system</scope>
       <systemPath>${project.basedir}/libs/DBAPI.jar</systemPath>
-    </dependency>
-    <dependency>
-      <groupId>me.clip</groupId>
-      <artifactId>placeholderapi</artifactId>
-      <version>2.10.3</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/PlaceholderAPI-2.10.3.jar</systemPath>
     </dependency>
     <!-- Maven Stuff -->
     <dependency>
