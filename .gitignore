@@ -1,1 +1,5 @@
 /out/production/
+.directory
+.settings
+target
+.direnv
