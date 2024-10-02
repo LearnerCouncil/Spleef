@@ -35,7 +35,7 @@
 
             src = ./.;
 
-            mvnHash = "";
+            mvnHash = "sha256-syp1So0HNYai62ZVBXafh9I39gRCcZmApXV6g3mMBMg=";
 
             mvnJdk = jdk17_headless;
             nativeBuildInputs = [
