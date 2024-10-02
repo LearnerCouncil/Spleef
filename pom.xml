@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>fr.naruse</groupId>
-  <artifactId>spleef</artifactId>
+  <artifactId>Spleef</artifactId>
   <version>2.2.25</version>
 
   <name>spleef</name>
@@ -63,13 +63,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>me.clip</groupId>
-      <artifactId>placeholderapi</artifactId>
-      <version>2.10.3</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/libs/PlaceholderAPI-2.10.3.jar</systemPath>
-    </dependency>
-    <dependency>
       <groupId>com.gmail.filoghost.holographicdisplays</groupId>
       <artifactId>holographicdisplays-api</artifactId>
       <version>2.4.9</version>
@@ -88,11 +81,24 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+        <groupId>org.spigotmc</groupId>
+        <artifactId>spigot-api</artifactId>
+        <version>1.12.2-R0.1-SNAPSHOT</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>com.rylinaux</groupId>
       <artifactId>PlugMan</artifactId>
-      <version>2.3.5</version>
+      <scope>provided</scope>
+      <version>2.3.3</version>
+    </dependency>
+    <!-- Local deps -->
+    <dependency>
+      <groupId>fr.naruse.api</groupId>
+      <artifactId>SecondThreadAPI</artifactId>
+      <version>1.0</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/libs/PlugManX.jar</systemPath>
+      <systemPath>${project.basedir}/libs/SecondThreadAPI-1.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>fr.naruse.dbapi</groupId>
@@ -102,18 +108,13 @@
       <systemPath>${project.basedir}/libs/DBAPI.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>fr.naruse.api</groupId>
-      <artifactId>SecondThreadAPI</artifactId>
-      <version>1.0</version>
+      <groupId>me.clip</groupId>
+      <artifactId>placeholderapi</artifactId>
+      <version>2.10.3</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/libs/SecondThreadAPI-1.0.jar</systemPath>
+      <systemPath>${project.basedir}/libs/PlaceholderAPI-2.10.3.jar</systemPath>
     </dependency>
-    <dependency>
-        <groupId>org.spigotmc</groupId>
-        <artifactId>spigot-api</artifactId>
-        <version>1.12.2-R0.1-SNAPSHOT</version>
-        <scope>provided</scope>
-    </dependency>
+    <!-- Maven Stuff -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
